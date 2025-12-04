@@ -1,0 +1,24 @@
+#list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;        /* ⬅ s'adapte automatiquement au contenu */
+    padding: 8px;
+    border: 1px solid black;
+    gap: 15px;
+}
+
+#element {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#apply {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
